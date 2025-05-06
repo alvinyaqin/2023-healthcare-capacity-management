@@ -31,7 +31,6 @@ All data and code in this repository are shared under the [Creative Commons Attr
 For questions, clarifications, or collaboration inquiries, please contact:
 
 **Alvin Muhammad 'Ainul Yaqin**  
-Systems Modeling and Optimization Research Group  
-Department of Industrial Engineering  
-Institut Teknologi Kalimantan, Balikpapan, Indonesia
+Systems Modeling and Optimization Research Group, Department of Industrial Engineering, Institut Teknologi Kalimantan, Balikpapan, Indonesia
+
 [alvinyaqin@lecturer.itk.ac.id](mailto:alvinyaqin@lecturer.itk.ac.id)
