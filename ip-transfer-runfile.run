@@ -1,0 +1,22 @@
+#RESET THE AMPL ENVIROMENT
+reset;
+
+#LOAD THE MODEL
+model done.mod;
+
+#LOAD THE DATA
+data done.dat;
+
+#expand Z, con3b, con3c, con3d, con3e, con3f, con3g, con3h1, con3h2;
+
+#CHANGE THE SOLVER 
+option solver gurobi;
+
+solve;
+
+option omit_zero_rows 1;
+
+#SHOW RESULTS
+display Z;
+display {t in T} : {b in B, i in N} overflow[b,i,t];
+display {t in T}: {b in B, i in N, j in N} allocated[b,i,j,t];
